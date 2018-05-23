@@ -1,0 +1,75 @@
+/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
+#domain-form #loading {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 15px;
+	background: url(domain-search-loader.gif) center no-repeat transparent;
+	color: transparent;
+	height: 55px;
+}
+#loading {
+	display: none;
+}
+.domaincheckerloading{
+    margin: 10px auto;
+    width: auto;
+    text-align: center;
+}
+#whois,#test {
+	display:none;
+}
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+.not-available button:hover{
+	background: rgb(202, 60, 60) ;
+	color: white;
+}
+
+.not-available {
+	color: #fff;
+	background-color: transparent;
+	border-color: transparent;
+	padding: 10px 5px 20px 0;
+	margin: 0;
+    width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+.not-available b {
+	color: #b94a48;
+}
+.available {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 10px 5px 20px 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+	font-size: 20px;
+}
+.available .btn, .available .btn:hover{
+    border: 1px solid #222;
+    background: #222;
+    color: #fff;
+    border-radius: 0;
+    padding: 15px 25px;
+	margin-top: 20px;
+}
+.section-lg.m-top5.m-bottom5 .available, .section-lg.m-top0.domain-search.white-bg .available {
+	color: #49a32b;
+}
+.section-lg.m-top5.m-bottom5 .not-available, .section-lg.m-top0.domain-search.white-bg .not-available {
+	color: #b94a48;
+}
+.black-button:hover, .black-button:focus{
+	color: #fff;
+}
+.result {
+	width: 100%;
+	margin: 10px auto;
+}
